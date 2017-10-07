@@ -13,11 +13,4 @@ process.stdin.on('data',(data)=>{
     input_array[j+1] = key;
   }
   console.log(input_array);
-  // process.stdout.write(input_array);
 });
-//
-// function showOutput(input_array){
-//   for(let i=0;i<input_array.length;i++){
-//     process.stdout.write(input_array[i]);
-//   }
-// }
